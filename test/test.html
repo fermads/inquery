@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>inQuery - Tests</title>
+    <meta charset="utf-8" />
+    <link href="lib/qunit.css" rel="stylesheet" />
+    <script src="lib/jquery.js"></script>
+    <script src="lib/qunit.js"></script>
+    <script src="../src/inquery.js"></script>
+    <style type="text/css">
+    .blue {background:blue}
+    .red {color:red;}
+    </style>
+  </head>
+  <body>
+    <h1 id="qunit-header">inQuery - QUnit Tests</h1>
+    <h2 id="qunit-banner"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <h2 id="qunit-userAgent"></h2>
+    <ol id="qunit-tests"></ol>
+    <div id="qunit-fixture">
+      <div id="test" class="maintest" title="cool">testid</div>
+      <ul id="test-list">
+        <li id="li1" class="test">testclass1</li>
+        <li id="li2" class="test">testclass2</li>
+      </ul>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>

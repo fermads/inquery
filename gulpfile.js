@@ -9,3 +9,7 @@ gulp.task('default', function() {
     .pipe(rename(package.name +'-'+ package.version +'.min.js'))
     .pipe(gulp.dest('dist/'));
 });
+
+gulp.task('test', function() {
+  console.log('Open test/test.html on a browser');
+});

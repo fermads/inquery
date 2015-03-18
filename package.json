@@ -1,6 +1,6 @@
 {
   "name": "inquery",
-  "description": "JavaScript library for DOM manipulation with a small set of jQuery API",
+  "description": "JavaScript library for DOM manipulation with support for a subset of jQuery's API",
   "version": "1.0.0",
   "author": "Fernando MAdS <fermads@gmail.com>",
   "keywords": [

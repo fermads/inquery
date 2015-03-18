@@ -1,13 +1,12 @@
 # inQuery
 
 A JavaScript library with support for a subset of jQuery's API
-using browser's native methods for DOM selection, filtering,
+using browser native methods for DOM selection, filtering,
 traversal, manipulation, styling and events
 
 ## Instalation
 
 Download `dist/inquery-[version].min.js` and add it to your html file
-
 
 ## API
 

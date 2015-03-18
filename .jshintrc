@@ -83,10 +83,10 @@
 
     // Custom Globals
     "globals"       : { // additional predefined global variables
-        "module":true,
-        "QUnit":true,
-        "test":true,
-        "equal":true,
-        "inQuery":true
+        "module" : true,
+        "QUnit"  : true,
+        "test"   : true,
+        "equal"  : true,
+        "inQuery": true
     }
 }
